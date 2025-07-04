@@ -9,11 +9,12 @@ import {
   Button,
   Checkbox,
   Dropdown,
+  FileUpload,
   Input,
+  RadioButtonGroup,
   Toggle,
   showToast,
 } from '../components'
-import { RadioButtonGroup } from '../components/base-ui-elements'
 import { DROPDOWN_OPTIONS, RADIO_OPTIONS, initialFormData } from '../constants'
 import { FormData } from '../types'
 
@@ -147,6 +148,13 @@ export default function Home() {
             required
             checked={formData.isAgreed}
             onChange={agreementChange}
+          />
+          <FileUpload
+            multiple
+            accept="file/*"
+            maxFileCount={3}
+            maxTotalSize={5}
+            required
           />
           <Button
             variant="secondary"

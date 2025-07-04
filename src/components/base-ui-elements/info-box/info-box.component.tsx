@@ -62,7 +62,7 @@ export function InfoBox({ type, title, description }: InfoBoxProps) {
       role="status"
       aria-label={`Infobox: ${type}`}
       className={twMerge(
-        'flex w-full flex-col gap-2 rounded-sm border-l-4 p-2 text-white',
+        'my-2 flex w-full flex-col gap-2 rounded-sm border-l-4 p-2 text-white',
         style,
       )}
     >

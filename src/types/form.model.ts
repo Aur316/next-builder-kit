@@ -6,4 +6,5 @@ export type FormData = {
   notification: boolean
   isAgreed: boolean
   radioChoice: string
+  files: Array<File>
 }

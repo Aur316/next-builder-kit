@@ -33,4 +33,5 @@ export const initialFormData = {
   notification: false,
   isAgreed: false,
   radioChoice: '',
+  files: [],
 }

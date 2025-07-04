@@ -59,5 +59,14 @@
     "success": "Success",
     "warning": "Warning",
     "error": "Error"
+  },
+  "fileUpload": {
+    "selectedFiles": "Selected files: {{count}}",
+    "removeFile": "Remove {{name}}",
+    "tooManyFiles": "Too many files selected. Maximum allowed: {{maxCount}}",
+    "totalSizeExceeded": "Total file size exceeds the limit. Maximum allowed: {{maxSize}}",
+    "fileCountInfo": "Files: {{current}}/{{max}}",
+    "totalSizeInfo": "Total size: {{current}}/{{max}}",
+    "errorTitle": "File Upload Error"
   }
 }
